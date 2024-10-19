@@ -144,7 +144,7 @@ local function antifuncheck()
 			})
 			return end
 	end
-	end
+
 
 local function antifuncheck2()
 		if safeantiremove == true then
@@ -4430,6 +4430,7 @@ setinlel:AddSlider({
 })
 
 OrionLib:Init()
+
 elseif workin == false then
 	local Tab = Window:MakeTab({
 		Name = "Main",
